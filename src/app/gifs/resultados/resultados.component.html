@@ -1,6 +1,6 @@
 <div class="row">
     <div *ngFor="let gif of resultados" class="col-md-4 col-sm-6 animate__animated animate__flipInX">
-        <div class="card text-center mb-3" style="box-shadow: 6px 6px 20px rgb(133, 133, 133) ;">
+        <div class="card text-center pb-3" style="box-shadow: 6px 6px 20px rgb(133, 133, 133) ;">
             <div class="card-body">
                 <img [src]="gif.images.downsized_medium.url" [alt]="gif.title" class="card-img-top img-fluid" style="max-width: 22rem; height: 15rem;">
                 <div class="card-text">
